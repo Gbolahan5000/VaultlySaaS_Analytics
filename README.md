@@ -39,33 +39,28 @@ Leadership needed to move off manual spreadsheet reporting and get straight answ
 ## 📂 Repository Structure
 
 ```
-Vaultly_SaaS_Analytics/
+VaultlySaaS_Analytics/
 │
 ├── assets/
-│   ├── pg_1_exec_summary.png
-│   ├── pg_2_marketing_products.png
-│   └── business_questions.png
-│
+│   ├── executive_summary.png
+│   ├── marketing_product.png
+│   └── wireframe.png
+|
 ├── data/
-│   ├── users.csv
 │   ├── acquisition.csv
-│   ├── subscriptions.csv
 │   ├── invoices.csv
 │   ├── onboarding_events.csv
-│   ├── product_events.csv
-│   └── date_dimension.csv
+│   ├── subscriptions.csv
+│   └── users.csv
 │
 ├── sql/
-│   ├── 01_create_database.sql
-│   ├── 02_bulk_insert.sql
-│   └── 03_data_cleaning.sql
+│   ├── vaultly_cleaning.sql
+│   ├── vaultly_database.sql
+│   └── measures.sql
 │
-├── design/
-│   └── Vaultly_Wireframes.fig
-│
-├── Vaultly SaaS Analytics.pbix
-│
-└── README.md
+├── README.md
+|
+└── Vaultly SaaS Analytics.pbix
 ```
 
 ---
@@ -225,7 +220,6 @@ Rather than building visuals directly in Power BI, I designed both dashboard pag
 | `Vaultly SaaS Analytics.pbix` | Full Power BI file — data model, DAX measures, two-page dashboard |
 | `sql/*.sql` | Database creation, bulk insert, and data cleaning scripts |
 | `data/*.csv` | Six source tables (users, acquisition, subscriptions, invoices, onboarding_events, product_events) plus the Date dimension |
-| `design/Vaultly_Wireframes.fig` | Original Figma wireframes used as Power BI backgrounds |
 | `assets/*.png` | Screenshots of both dashboard pages and the stakeholder business-questions brief |
 | `README.md` | Full project documentation |
 
@@ -233,7 +227,7 @@ Rather than building visuals directly in Power BI, I designed both dashboard pag
 
 ## 👤 Author
 
-**[Your Name]**
+**lawal Yusuf Gbolahan**
 Data / Analytics Engineer
 
 *An end-to-end SQL Server → Power BI analytics build for a B2C personal finance SaaS product — from raw operational exports to a stakeholder-ready churn, retention, and acquisition dashboard.*
