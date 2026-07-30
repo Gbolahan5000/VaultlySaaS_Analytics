@@ -96,7 +96,7 @@ Phase 8 → Insights & Recommendations
 ## 🧭 Page 1 — Executive Summary (CFO View)
 **Question:** *Which users are churning before their second invoice, and what's the true lifetime value math behind each acquisition channel?*
 
-![Exec Summary](<assets/executive_summary.png>)
+![Exec Summary](<assets/executive_summary.png>) 
 
 - **Paid Social is the most expensive channel by far**: CAC of **$41.06** versus **$8.84** (Direct), **$8.47** (Organic Search), and **$10.68** (Referral) — roughly 4–5x the cost of every other channel.
 - **Paid Social also has the highest churn (45.83%)** and the **lowest LTV ($13.15)** of any channel, meaning it is simultaneously the most expensive to acquire and the least durable once acquired — a direct hit to unit economics.
